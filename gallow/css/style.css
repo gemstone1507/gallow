@@ -1,0 +1,171 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #222;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+}
+
+.btn{
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 18px;
+    padding: 15px 25px;
+}
+.send{
+    background: rgb(99, 99, 230);
+    border: 3px solid rgb(51, 51, 233);
+    color: #fff;
+    -webkit-box-shadow: -1px 2px 22px 0px rgba(50,40,128,1);
+    -moz-box-shadow: -1px 2px 22px 0px rgba(50,40,128,1);
+    box-shadow: -1px 2px 22px 0px rgba(50,40,128,1);
+}
+.send:hover{
+    background: rgb(81, 81, 230);
+    border: 3px solid rgb(51, 51, 233);
+    color: #fff;
+}
+.restart{
+    background: rgb(230, 99, 105);
+    border: 3px solid rgb(233, 51, 51);
+    -webkit-box-shadow: -1px 2px 22px 0px rgba(179,66,62,1);
+    -moz-box-shadow: -1px 2px 22px 0px rgba(179,66,62,1);
+    box-shadow: -1px 2px 22px 0px rgba(179,66,62,1);
+    color: #fff;
+}
+.restart:hover{
+    background: rgb(226, 84, 91);
+    border: 3px solid rgb(233, 51, 51);
+    color: #fff;
+}
+
+.success{
+    background: rgb(99, 230, 116);
+    border: 3px solid rgb(24, 189, 59);
+    color: #222;
+    cursor: default;
+}
+.success:hover{
+    background: rgb(35, 194, 54);
+    border: 3px solid rgb(40, 150, 62);
+    color: #fff;
+}
+.failure{
+    background: rgb(214, 67, 67);
+    border: 3px solid rgb(151, 30, 30);
+    color: #222;
+    cursor: default;
+}
+.failure:hover{
+    background: rgb(214, 67, 67);
+    border: 3px solid rgb(151, 30, 30);
+    color: #fff;
+}
+input{
+    padding: 15px 25px;
+    border: 3px solid #fff;;
+    -webkit-box-shadow: -1px 2px 22px 0px rgba(5,5,5,1);
+    -moz-box-shadow: -1px 2px 22px 0px rgba(5,5,5,1);
+    box-shadow: -1px 2px 22px 0px rgba(5,5,5,1);
+    font-size: 18px;
+    color: #000;    
+}
+.counter{
+    color: rgb(71, 71, 245);
+    font-weight: 700;
+}
+#app{
+    margin-top: 100px;
+}
+p{
+    margin: 20px;
+}
+@media only screen and (max-device-width: 768px) {
+    .btn{
+        text-align: center;
+        cursor: pointer;
+        margin: 10px;
+        font-size: 36px;
+        padding: 25px 25px;
+    }
+    p{
+        font-size: 97px;
+        margin: 50px;
+    }
+    .send{
+        background: rgb(99, 99, 230);
+        border: 3px solid rgb(51, 51, 233);
+        color: #fff;
+        -webkit-box-shadow: -1px 2px 22px 0px rgba(50,40,128,1);
+        -moz-box-shadow: -1px 2px 22px 0px rgba(50,40,128,1);
+        box-shadow: -1px 2px 22px 0px rgba(50,40,128,1);
+    }
+    .send:hover{
+        background: rgb(81, 81, 230);
+        border: 3px solid rgb(51, 51, 233);
+        color: #fff;
+    }
+    .restart{
+        background: rgb(230, 99, 105);
+        border: 3px solid rgb(233, 51, 51);
+        -webkit-box-shadow: -1px 2px 22px 0px rgba(179,66,62,1);
+        -moz-box-shadow: -1px 2px 22px 0px rgba(179,66,62,1);
+        box-shadow: -1px 2px 22px 0px rgba(179,66,62,1);
+        color: #fff;
+    }
+    .restart:hover{
+        background: rgb(226, 84, 91);
+        border: 3px solid rgb(233, 51, 51);
+        color: #fff;
+    }
+    
+    .success{
+        background: rgb(99, 230, 116);
+        border: 3px solid rgb(24, 189, 59);
+        color: #222;
+        cursor: default;
+        margin-top: 250px;
+        margin-bottom: 300px;
+    }
+    .success:hover{
+        background: rgb(35, 194, 54);
+        border: 3px solid rgb(40, 150, 62);
+        color: #fff;
+    }
+    .failure{
+        background: rgb(214, 67, 67);
+        border: 3px solid rgb(151, 30, 30);
+        color: #222;
+        cursor: default;
+    }
+    .failure:hover{
+        background: rgb(214, 67, 67);
+        border: 3px solid rgb(151, 30, 30);
+        color: #fff;
+    }
+    input{
+        padding: 25px 15px;
+        border: 3px solid #fff;;
+        -webkit-box-shadow: -1px 2px 22px 0px rgba(5,5,5,1);
+        -moz-box-shadow: -1px 2px 22px 0px rgba(5,5,5,1);
+        box-shadow: -1px 2px 22px 0px rgba(5,5,5,1);
+        font-size: 36px;
+        color: #000;    
+    }
+    .counter{
+        color: rgb(71, 71, 245);
+        font-weight: 700;
+    }
+    #app{
+        margin-top: 100px;
+    }
+}
